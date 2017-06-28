@@ -1,6 +1,6 @@
 package entity;
 
-public class Usuarios {
+public class Usuario {
 		
 	public String getNombre() {
 		return nombre;
@@ -38,11 +38,11 @@ public class Usuarios {
 	public void setNivel(int nivel) {
 		this.nivel = nivel;
 	}
-	public boolean isHabilitado() {
-		return habilitado;
+	public String isHabilitado() {
+		return inhabilitado;
 	}
-	public void setHabilitado(boolean habilitado) {
-		this.habilitado = habilitado;
+	public void setHabilitado(String inhabilitado) {
+		this.inhabilitado = inhabilitado;
 	}
 	
 	private String nombre;
@@ -51,6 +51,6 @@ public class Usuarios {
 	private String correo;
 	private String alias;
 	private int nivel;
-	private boolean habilitado;
+	private String inhabilitado;
 
 }
