@@ -105,14 +105,12 @@
                             <a href="#"><i class="fa fa-users fa-fw"></i> Usuarios<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="../pages/usuario_buscar.jsp"><i class="fa fa-search" aria-hidden="true"></i> Buscar Usuario</a>
+                                    <a href="../pages/acceso_restringido.jsp"><i class="fa fa-cog" aria-hidden="true"></i> Gestionar Usuarios</a>
                                 </li>
-                                <li>
-                                    <a href="../pages/usuario_nuevo.jsp"><i class="fa fa-user-plus fa-fw"></i> Nuevo Usuario</a>
-                                </li>
+                              
                             </ul>
                             <!-- /.nav-second-level -->
-                        </li><!--  Contactologia -->
+                        </li><!--  Usuarios Cascada -->
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

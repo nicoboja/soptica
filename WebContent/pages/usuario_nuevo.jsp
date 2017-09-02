@@ -13,6 +13,7 @@
 
 	<div id="page-wrapper">
             <div class="row">
+            
                 <div class="col-lg-12">
                     <h1 class="page-header">Nuevo Usuario</h1>
                 </div><!-- /.col-lg-12 -->
@@ -21,22 +22,33 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Datos del Usuario
+                       	
+                           <div class="input-group">
+                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Ingresar Alias de Usuario">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                    	<i class="fa fa-search" aria-hidden="true"></i>
+                                        Buscar Usuario
+                                    </button>
+                                </span>
+                          
+                           </div>
+                           
                         </div>
                         <div class="panel-body">
                         <div class="row">
                         		 <div class="col-lg-6">
                          	        <div class="form-group">
                                     	<label>Usuario</label>
-                                        <input class="form-control" name="usuario" id="usuario" >
+                                        <input class="form-control" name="usuario" id="usuario" disabled>
                                     </div>
                                     <div class="form-group">
                                  	   <label>Apellido</label>
-                                       <input class="form-control" name="apellido" id="apellido" >
+                                       <input class="form-control" name="apellido" id="apellido" disabled>
                                     </div>
                                     <div class="form-group">
                                         <label>Nombre</label>
-                                        <input class="form-control" name="nombre" id="nombre" >
+                                        <input class="form-control" name="nombre" id="nombre" disabled>
                                     </div>
                                  </div><!-- /col6 -->
                                  
@@ -47,32 +59,32 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Roles</label>
-                                            <div class="checkbox" >
+                                            <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >Optico
+                                                    <input type="checkbox" value="" disabled>Optico
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >Contactologo
+                                                    <input type="checkbox" value="" disabled>Contactologo
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="">Fonoudiologo
+                                                    <input type="checkbox" value="" disabled>Fonoudiologo
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="">Tecnico
+                                                    <input type="checkbox" value="" disabled>Tecnico
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="">Administrador
+                                                    <input type="checkbox" value="" disabled>Administrador
                                                 </label>
                                             </div>
-                                       		<button type="button" class="btn btn-success">Guardar</button>    
+                                       		<button type="button" class="btn btn-success" disabled>Guardar</button>    
                                 		</div><!-- /form group -->
                                     </div><!-- /col6 -->
                                </div><!-- /row -->
