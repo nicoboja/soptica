@@ -8,7 +8,7 @@
 <!-- Metis Menu Plugin JavaScript -->
     <script src="../config/metisMenu/metisMenu.min.js"></script>
 <!-- DataTables JavaScript -->
-    <script src="../config/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="../config/datatables/js/jquery.dataTables.js"></script>
     <script src="../config/datatables-plugins/dataTables.bootstrap.min.js"></script>
     <script src="../config/datatables-responsive/dataTables.responsive.js"></script>
 <!-- Morris Charts JavaScript -->

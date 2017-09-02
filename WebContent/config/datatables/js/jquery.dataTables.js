@@ -11364,7 +11364,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "No data available in table",
+			"sEmptyTable": "NO HAY DATOS",
 	
 	
 			/**

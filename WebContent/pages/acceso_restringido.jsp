@@ -32,7 +32,7 @@
 			    			<input class="form-control" placeholder="Contraseña" name="password" type="password" value="">
 			    		</div>
 			    		
-			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Acceder">
+			    		<input class="btn btn-lg btn-success btn-block" onclick="location.href = 'gestionar_usuarios.jsp'" value="Acceder">
 			    		<br>
 			    		<p align="right" ><em><a href="#">Recuperar Contraseña</a></em></p>
 			    	</fieldset>
