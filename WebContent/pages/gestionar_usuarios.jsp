@@ -29,20 +29,20 @@
                             <table width="100%" class="table table-striped table-bordered table-hover" id="dataTable">
                                 <thead>
                                     <tr>
-                                        <th>Rendering engine</th>
-                                        <th>Browser</th>
-                                        <th>Platform(s)</th>
-                                        <th>Engine version</th>
-                                        <th>CSS grade</th>
+                                        <th>Usuario</th>
+                                        <th>Nombre</th>
+                                        <th>Apellido</th>
+                                        <th>Correo</th>
+                                        <th></th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr class="odd gradeX">
-                                        <td>Trident</td>
-                                        <td>Internet Explorer 4.0</td>
-                                        <td>Win 95+</td>
-                                        <td class="center">4</td>
-                                        <td class="center">X</td>
+                                        <td>Nico</td>
+                                        <td>Nicolas</td>
+                                        <td>Bojanich</td>
+                                        <td>nico.boja@gmail.com</td>
+                                        <td class="center"><i class='fa fa-cogs' aria-hidden='tru'></i></td>
                                     </tr>
                                     <tr class="even gradeC">
                                         <td>Trident</td>
@@ -458,7 +458,8 @@
     $(document).ready(function() {
         $('#dataTable').DataTable({
             "language": {
-                "zeroRecords": "NO HAY DATOS"
+                "zeroRecords": "<input class='btn btn-lg btn-success btn-block' type='button' value='Nuevo Usuario'>"
+	    		
               }
             
         });
