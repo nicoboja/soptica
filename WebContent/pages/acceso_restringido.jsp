@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@include file="../META-INF/jspf/meta.jspf"%>
 
-<title>S.Optica | Blank</title>
+<title>S.Optica | Acceso Restringido</title>
 </head>
 <body>
 <%@ include file="../META-INF/jspf/nav.jspf" %>
@@ -22,6 +22,21 @@
                 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                                <big><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
                                Alerta | </big> Para ingresar a Gestion de Usuarios debe volver a ingresar su contraseña
+                </div>
+                <div class="alert alert-danger alert-dismissable">
+                	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                               <big><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                               Error | </big>Contraseña incorrecta. Vuelva a intentarlo. 
+                </div>
+                <div class="alert alert-danger alert-dismissable">
+                	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                               <big><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                               Error | </big> Usted no tiene permisos para ingresar a Gestion de Usuarios.
+                </div>
+                <div class="alert alert-danger alert-dismissable">
+                	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                               <big><i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+                               Error | </big> Su usuario no se encuentra habilitado.
                 </div>
 			    <form accept-charset="UTF-8" role="form" >
                     <fieldset>
