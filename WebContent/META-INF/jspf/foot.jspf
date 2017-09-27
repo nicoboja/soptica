@@ -5,18 +5,13 @@
     <script src="../config/jquery/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
     <script src="../config/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../config/bootstrap/js/jquery.dataTables.min.js"></script>
+    <script src="../config/bootstrap/js/dataTables.bootstrap.min.js"></script>
+    <script src="../config/bootstrap/js/dataTables.responsive.js"></script>
 <!-- Metis Menu Plugin JavaScript -->
     <script src="../config/metisMenu/metisMenu.min.js"></script>
-<!-- DataTables JavaScript -->
-	<script src="../config/datatables/js/jquery.js"></script>
-	<script src="../config/datatables/js/jquery.dataTables.min.js"></script>
-   	<script src="../config/datatables/js/jquery.bootstrap.min.js"></script>
-   
-  	<script src="../config/datatables-plugins/js/jquery.js"></script>
-	<script src="../config/datatables-plugins/js/jquery.dataTables.min.js"></script>
-   	<script src="../config/datatables-plugins/js/jquery.bootstrap.min.js"></script>
-<!-- Morris Charts JavaScript -->
 
-<script src="../config/morrisjs/morris.min.js"></script>
+<!-- Morris Charts JavaScript -->
+	<script src="../config/morrisjs/morris.min.js"></script>
 <!-- Custom Theme JavaScript -->
     <script src="../config/js/custom.js"></script>

@@ -3,9 +3,16 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Bootstrap CSS -->
 <link rel="stylesheet" type="text/css" href="../config/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link rel="stylesheet" type="text/css" href="../config/datatables/css/dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="../config/bootstrap/css/dataTables.bootstrap.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" type="text/css" href="../config/bootstrap/css/dataTables.responsive.css" rel="stylesheet" media="screen">
+<!-- Bootstrap CSS 
+
+<link rel="stylesheet" type="text/css" href="../config/datatables-plugins/css/dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="../config/datatables-plugins/css/dataTables.responsive.css"/>
+<link href="../config/datatables-plugins/css/dataTables.bootstrap.css" rel="stylesheet">-->
+
+
 <!-- Custom CSS -->
 <link href="../config/css/custom.css" rel="stylesheet" media="screen">
 <!-- MetisMenu CSS -->

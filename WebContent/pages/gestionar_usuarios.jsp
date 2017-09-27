@@ -26,8 +26,8 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-						<table width="100%" class="table table-striped table-bordered table-hover dataTable no-footer dtr-inline" id="example" ">
-        					<thead>
+						 <table width="100%" class="table table-striped table-bordered table-hover" id="example">
+                         <thead>
             					<tr>
                 					<th>Usuario</th>
                                     <th>Nombre</th>
@@ -47,7 +47,7 @@
         					</tfoot>
        					 <tbody>
            						 <tr>
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;n.bojanich</td>
+                                        <td class="gradeA"><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;n.bojanich</td>
                                         <td>Nicolas</td>
                                         <td>Bojanich</td>
                                         <td>nico.boja@gmail.com</td>
@@ -111,14 +111,57 @@
 //Setup - add a text input to each footer cell
 $('#example tfoot th').each( function () {
     var title = $(this).text();
-    $(this).html( '<input type="text" placeholder="Buscar '+title+'" />' );
+    $(this).html( '<input type="text" placeholder="Filtro por '+title+'" name="'+title+'"/>' );
 } );
 // DataTable
-var table = $('#example').DataTable();
+var table = $('#example').DataTable({
+	responsive: true,
+	"language": {
+        "zeroRecords": "<input class='btn btn-lg btn-success btn-block' type='button' value='Nuevo Usuario'>",
+        "lengthMenu": "Visualizar _MENU_ por pagina",
+      	"sProcessing":     "Procesando...",
+        "sEmptyTable":     "Ningún dato disponible en esta tabla",
+        "sInfo":           "Mostrando Usuarios del: _START_ al _END_ <br> Total de Usuarios:  _TOTAL_",
+        "sInfoEmpty":      "No hay registros",
+        "sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+        "sInfoPostFix":    "",
+        "sSearch":         "Filtrar Tabla:",
+        "sUrl":            "",
+        "sInfoThousands":  ",",
+        "sLoadingRecords": "Cargando...",
+        "oPaginate": {
+            "sFirst":    "Primero",
+            "sLast":     "Último",
+            "sNext":     "Siguiente",
+            "sPrevious": "Anterior"
+        },
+        "oAria": {
+            "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+            "sSortDescending": ": Activar para ordenar la columna de manera descendente"
+        },
+        "columnDefs": [
+                          {
+                              "targets": [ 2 ],
+                              "visible": false,
+                              "searchable": false
+                          },
+                          {
+                              "targets": [ 3 ],
+                              "visible": false,
+                              "searchable": false,
+                              "orderable": false
+                          }
+                      ]
+        
+      }
+});
+
+
 
 // Apply the search
 table.columns().every( function () {
     var that = this;
+    
 
     $( 'input', this.footer() ).on( 'keyup change', function () {
         if ( that.search() !== this.value ) {
@@ -127,7 +170,7 @@ table.columns().every( function () {
                 .draw();
         }
     } );
-
+$('#example tfoot tr').appendTo('#example thead');
    
 });
 
