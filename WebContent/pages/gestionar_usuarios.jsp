@@ -33,7 +33,8 @@
                                     <th>Nombre</th>
                                     <th>Apellido</th>
                                     <th>Correo</th>
-                                   
+                                    
+                                    
        						   </tr>
         					</thead>
        						<tfoot>
@@ -42,52 +43,60 @@
                                     <th>Nombre</th>
                                     <th>Apellido</th>
                                     <th>Correo</th>
-                                
-                			 </tr>
+                                   
+                            </tr>
         					</tfoot>
        					 <tbody>
-           						 <tr>
-                                        <td class="gradeA"><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;n.bojanich</td>
+           						<tr>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">n.bojanich</button></td>
                                         <td>Nicolas</td>
                                         <td>Bojanich</td>
                                         <td>nico.boja@gmail.com</td>
+                                   		
                                        
                                     </tr>
                                     <tr >
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;b.alessandri</td>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">b.alessandri</button></td>
                                         <td>Bruno</td>
                                         <td>Alessandri</td>
                                         <td>bruno@gmail.com</td>
+                                        
                                     </tr>
                                     <tr>
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;c.smerialdino</td>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">c.smerialdino</button></td>
                                         <td>Claudia</td>
                                         <td>Smerialdino</td>
                                         <td>smerialdino@gmail.com</td>
+                                       
               						</tr>
                                     <tr>
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;p.bruch</td>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block btn">p.bruch</button></td>
                                         <td>Pedro</td>
                                         <td>Bruch</td>
                                         <td>bruchpedro@hotmail.com</td>
+                                        
                                     </tr>
                                     <tr>
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;a.avendaño</td>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">a.avendaño</button></td>
                                         <td>Alejandra</td>
                                         <td>Avendaño</td>
                                         <td>aleavendaño@hotmail.com</td>
+                                        
                                     </tr>
-                                    <tr>
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;l.gomez</td>
+                                    <tr >
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">l.gomez</button></td>
                                         <td>Leticia</td>
                                         <td>Gomex</td>
                                         <td>leti002@hotmail.com</td>
+                                       
                                     </tr>
                                     <tr >
-                                        <td><button type="button" class="btn btn-primary btn-circle"><i class="fa fa-plus"></i></button>&nbsp;&nbsp;g.caprioti</td>
+                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">g.caprioti</button></td>
                                         <td>German</td>
                                         <td>Caprioti</td>
-                                        <td>german.caprioti@hotmail.com</td>
+                                        <td>german.caprioti@hotmail.com
+ 									</td>
+                                       
                                     </tr>
         </tbody>
     </table>
