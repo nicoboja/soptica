@@ -48,7 +48,7 @@
         					</tfoot>
        					 <tbody>
            						<tr>
-                                        <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">n.bojanich</button></td>
+                                        <td><button type="button" onclick="document.location ='../pages/usuario_modificar.jsp'" class="btn btn-outline btn-warning text-right btn-block">n.bojanich</button></td>
                                         <td>Nicolas</td>
                                         <td>Bojanich</td>
                                         <td>nico.boja@gmail.com</td>
@@ -120,7 +120,7 @@
 //Setup - add a text input to each footer cell
 $('#example tfoot th').each( function () {
     var title = $(this).text();
-    $(this).html( '<input type="text" placeholder="Filtro por '+title+'" name="'+title+'"/>' );
+    $(this).html( '<input type="text" class="form-control" placeholder="Filtro por '+title+'" name="'+title+'"/>' );
 } );
 // DataTable
 var table = $('#example').DataTable({

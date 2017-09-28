@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@include file="../META-INF/jspf/meta.jspf"%>
 
-<title>S.Optica | Nuevo Usuario</title>
+<title>S.Optica | Modificar Usuario</title>
 </head>
 <body>
 <%@ include file="../META-INF/jspf/nav.jspf" %>
@@ -15,27 +15,17 @@
             <div class="row">
             
                 <div class="col-lg-12">
-                    <h1 class="page-header">Nuevo Usuario</h1>
+                    <h1 class="page-header">Modificar Usuario</h1>
                 </div><!-- /.col-lg-12 -->
         	</div><!-- /.row -->
 			<div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                       	
-                           <div class="input-group">
-                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Ingresar Alias de Usuario">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-info btn-sm" id="btn-chat">
-                                    	<i class="fa fa-check" aria-hidden="true"></i>
-                                        Validar Usuario
-                                    </button>
-                                </span>
-                          
-                           </div>
-                           
+                        Usuario: n.bojanich
                         </div>
-                        <div class="panel-body">
+                   </div>
+                   <div class="panel-body">
                         <div class="row">
                         		 <div class="col-lg-6">
                          	        <div class="form-group">
