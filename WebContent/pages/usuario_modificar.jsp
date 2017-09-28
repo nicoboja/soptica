@@ -23,7 +23,7 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                         Usuario: n.bojanich
-                        </div>
+                       
                    </div>
                    <div class="panel-body">
                         <div class="row">
@@ -40,13 +40,14 @@
                                         <label>Nombre</label>
                                         <input class="form-control" name="nombre" id="nombre" disabled>
                                     </div>
+                                    <div class="form-group">
+                                            <label>Correo</label>
+                                            <input class="form-control" name="correo" id="correo" disabled>
+                                    </div>
                                  </div><!-- /col6 -->
                                  
                                  <div class="col-lg-6">
-                                   		<div class="form-group">
-                                            <label>Correo</label>
-                                            <input class="form-control" name="correo" id="correo" disabled>
-                                        </div>
+                                   	
                                         <div class="form-group">
                                             <label>Roles</label>
                                             <div class="checkbox">
@@ -74,10 +75,27 @@
                                                     <input type="checkbox" value="" disabled>Administrador
                                                 </label>
                                             </div>
-                                       		<button type="button" class="btn btn-success" disabled>Guardar</button>    
-                                		</div><!-- /form group -->
+                                            <div class="form-group">
+                                            	<label>Estado</label>
+                                            	<select class="form-control">
+                                            		<option>Habilitado: 10/09/2017 por c.smerialdino</option>
+                                            		<option>Inhabilitado: 10/09/2017 por c.smerialdino</option>
+                                               		<option>Fecha Alta: 02/09/2017</option>
+									      		</select>
+									      	</div>
+									      	<div class="form-group">
+									      		<button type="button" class="btn btn-danger">Inhabilitar</button>
+                                        	</div>
                                     </div><!-- /col6 -->
-                               </div><!-- /row -->
+                              		</div><!-- /row -->	
+                              		<div class="col-lg-12">
+                                   <div class="form-group">
+                                            	<label>Notas Internas</label>
+                                            	<textarea class="form-control" rows="3"></textarea>
+                                        	</div>
+                                       		<button type="button" class="btn btn-success" disabled>Guardar</button>    
+                                	</div><!-- /form group -->
+                                </div>	 
                          </div><!-- /panel body -->
                     </div><!--  /panel default -->
                 </div><!-- /col12 -->
