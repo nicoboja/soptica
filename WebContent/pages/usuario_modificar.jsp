@@ -83,9 +83,7 @@
                                                		<option>Fecha Alta: 02/09/2017</option>
 									      		</select>
 									      	</div>
-									      	<div class="form-group">
-									      		<button type="button" class="btn btn-danger">Inhabilitar</button>
-                                        	</div>
+									      	
                                     </div><!-- /col6 -->
                               		</div><!-- /row -->	
                               		<div class="col-lg-12">
@@ -94,6 +92,7 @@
                                             	<textarea class="form-control" rows="3"></textarea>
                                         	</div>
                                        		<button type="button" class="btn btn-success" disabled>Guardar</button>    
+                                			<button type="button" class="btn btn-danger">Inhabilitar</button>
                                 	</div><!-- /form group -->
                                 </div>	 
                          </div><!-- /panel body -->
