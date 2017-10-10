@@ -1,7 +1,7 @@
 //Setup - add a text input to each footer cell
 $('#example tfoot th').each( function () {
     var title = $(this).text();
-    $(this).html( '<input type="text" class="form-control" placeholder="x '+title+'" name="'+title+'"/>' );
+    $(this).html( '<input type="text" size="7" class="form-control" name="'+title+'"/>' );
 } );
 // DataTable
 var table = $('#example').DataTable({
@@ -10,6 +10,7 @@ var table = $('#example').DataTable({
 	             { responsivePriority: 1, targets: 0 },
 	             { responsivePriority: 2, targets: -2 }
 	         ],
+	         fixedColumns: true,
 	         
 	"language": {
         "zeroRecords": "<input class='btn btn-lg btn-success btn-block' type='button' value='Nuevo Usuario'>",
