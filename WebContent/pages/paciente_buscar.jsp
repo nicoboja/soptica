@@ -74,41 +74,40 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-						 <table width="80%" cellspacing="0"" class="table table-striped table-bordered table-hover" id="example">
+                        <div class="table-responsive">
+						 <table width="100%" cellspacing="0" class="display compact" id="example">
                          <thead>
             					<tr>
-                					<th>HC</th>
-                					<th>Documento</th>
+                					<th data-priority="1">HC</th>
+                					<th data-priority="1" >Documento</th>
                 					<th>Tipo</th>
-                                    <th>Nombre</th>
-                                    <th>Apellido</th>
+                                    <th data-priority="1">Nombre</th>
+                                    <th data-priority="1">Apellido</th>
                                     <th>Correo</th>
-                                    <th>Telefono</th>
+                                    <th data-priority="1">Telefono</th>
                                    	<th>Direccion</th>
                                    	<th>Ciudad</th>
                                    	<th>Provincia</th>
                                    	<th>Pais</th>
-                                    
-                                    
-       						   </tr>
+                               </tr>
         					</thead>
        						<tfoot>
           					  <tr>
-                					<th>HC</th>
-                					<th>Documento</th>
-                					<th>Tipo</th>
-                                    <th>Nombre</th>
-                                    <th>Apellido</th>
-                                    <th>Correo</th>
-                                    <th>Telefono</th>
-                                   	<th>Direccion</th>
-                                   	<th>Ciudad</th>
-                                   	<th>Provincia</th>
-                                   	<th>Pais</th>
+                					<th data-priority="1">HC</th>
+                					<th data-priority="1">Documento</th>
+                					<th data-priority="2">Tipo</th>
+                                    <th data-priority="1">Nombre</th>
+                                    <th data-priority="1">Apellido</th>
+                                    <th data-priority="2">Correo</th>
+                                    <th data-priority="1">Telefono</th>
+                                   	<th data-priority="2">Direccion</th>
+                                   	<th data-priority="2">Ciudad</th>
+                                   	<th data-priority="2">Provincia</th>
+                                   	<th data-priority="2">Pais</th>
                             </tr>
         					</tfoot>
        					 <tbody>
-           						<tr>
+           							<tr>
                                         <td><button type="button" onclick="document.location ='../pages/usuario_modificar.jsp'" class="btn btn-outline btn-warning text-right btn-block">2001</button></td>
                                         <td>32658293</td>
                                         <td>DNI</td>
@@ -120,8 +119,8 @@
                                    		<td>San Nicolas</td>
                                    		<td>Buenos Aires</td>
                                    		<td>Argentina</td>
-                                </tr>
-                                    <tr >
+                                	</tr>
+                                    <tr>
                                         <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">2002</button></td>
                                         <td>35258951</td>
                                         <td>DNI</td>
@@ -147,8 +146,7 @@
                                    		<td>Rosario</td>
                                    		<td>Santa fe</td>
                                    		<td>Argentina</td>
-                                       
-              						</tr>
+                                	</tr>
                                     <tr>
                                         <td><button type="button" class="btn btn-outline btn-warning text-right btn-block btn">2004</button></td>
                                         <td>159465</td>
@@ -175,38 +173,36 @@
                                    		<td>Santa fe</td>
                                    		<td>Argentina</td> 
                                     </tr>
-                                    <tr >
+                                    <tr>
                                         <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">2006</button></td>
                                         <td>20852964</td>
                                         <td>DNI</td>
                                         <td>Leticia</td>
                                         <td>Gomex</td>
                                         <td>leti002@hotmail.com</td>
-                                        <td>(341) 154880874 </td>
+                                        <td>(341) 154880874</td>
                                    		<td>Paraguay 50</td>
                                    		<td>Rosario</td>
                                    		<td>Santa fe</td>
                                    		<td>Argentina</td>
                                     </tr>
-                                    <tr >
+                                    <tr>
                                         <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">2007</button></td>
                                         <td>30002125</td>
                                         <td>DNI</td>
                                         <td>German</td>
                                         <td>Caprioti</td>
-                                        <td>german.caprioti@hotmail.com
-                                        <td>(341) 154880874 </td>
+                                        <td>german.caprioti@hotmail.com</td>
+                                        <td>(341) 154880874</td>
                                    		<td>Paraguay 50</td>
                                    		<td>Rosario</td>
                                    		<td>Santa fe</td>
                                    		<td>Argentina</td>
- 									
-                                       
-                                    </tr>
-        </tbody>
-    </table>
+ 									</tr>
+ 							  </tbody>
+    					</table>
                             <!-- /.table-responsive -->
-                            
+                          </div>  
                         </div>
                         <!-- /.panel-body -->
                     </div>

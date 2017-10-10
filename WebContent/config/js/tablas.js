@@ -6,7 +6,11 @@ $('#example tfoot th').each( function () {
 // DataTable
 var table = $('#example').DataTable({
 	responsive: true,
-	
+	columnDefs: [
+	             { responsivePriority: 1, targets: 0 },
+	             { responsivePriority: 2, targets: -2 }
+	         ],
+	         
 	"language": {
         "zeroRecords": "<input class='btn btn-lg btn-success btn-block' type='button' value='Nuevo Usuario'>",
         "lengthMenu": "Visualizar _MENU_ por pagina",
@@ -29,20 +33,8 @@ var table = $('#example').DataTable({
         "oAria": {
             "sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
             "sSortDescending": ": Activar para ordenar la columna de manera descendente"
-        },
-        "columnDefs": [
-                          {
-                              "targets": [ 2 ],
-                              "visible": false,
-                              "searchable": false
-                          },
-                          {
-                              "targets": [ 3 ],
-                              "visible": false,
-                              "searchable": false,
-                              "orderable": false
-                          }
-                      ]
+        }
+       
         
       }
 });
