@@ -22,7 +22,7 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                        Usuario: n.bojanich
+                        Perfil de Usuario
                        
                    </div>
                    <div class="panel-body">
@@ -30,19 +30,19 @@
                         		 <div class="col-lg-6">
                          	        <div class="form-group">
                                     	<label>Usuario</label>
-                                        <input class="form-control" name="usuario" id="usuario" disabled>
+                                        <input class="form-control" name="usuario" id="usuario" disabled value="n.bojanich ">
                                     </div>
                                     <div class="form-group">
                                  	   <label>Apellido</label>
-                                       <input class="form-control" name="apellido" id="apellido" disabled>
+                                       <input class="form-control" autofocus name="apellido" id="apellido" value="Bojanich" >
                                     </div>
                                     <div class="form-group">
                                         <label>Nombre</label>
-                                        <input class="form-control" name="nombre" id="nombre" disabled>
+                                        <input class="form-control" name="nombre" id="nombre" value="Nicolas" >
                                     </div>
                                     <div class="form-group">
                                             <label>Correo</label>
-                                            <input class="form-control" name="correo" id="correo" disabled>
+                                            <input class="form-control" name="correo" id="correo" value="nico.boja@gmail.com" >
                                     </div>
                                  </div><!-- /col6 -->
                                  
@@ -52,47 +52,53 @@
                                             <label>Roles</label>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" disabled>Optico
+                                                    <input type="checkbox" value="admin" checked>Administrador
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" disabled>Contactologo
+                                                    <input type="checkbox" value="" >Contactologo
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" disabled>Fonoudiologo
+                                                    <input type="checkbox" value="" >Fonoudiologo
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" disabled>Tecnico
+                                                    <input type="checkbox" value="" checked >Optico
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" disabled>Administrador
+                                                    <input type="checkbox" value="" >Tecnico
                                                 </label>
                                             </div>
+                                            
                                             <div class="form-group">
-                                            	<label>Estado</label>
-                                            	<select class="form-control">
-                                            		<option>Habilitado: 10/09/2017 por c.smerialdino</option>
-                                            		<option>Inhabilitado: 10/09/2017 por c.smerialdino</option>
-                                               		<option>Fecha Alta: 02/09/2017</option>
+                                           		<label>Estado</label>
+                                            	<select class="form-control ">
+                                            		<option class="text-success">Habilitado: 10/09/2017 por c.smerialdino</option>
+                                            		<option class="text-danger">Inhabilitado: 10/09/2017 por c.smerialdino</option>
+                                               		<option class="text-info">Fecha Alta: 02/09/2017</option>
 									      		</select>
 									      	</div>
+									      	<div class="form-group">
+									      	<button type="button" class="btn btn-danger ">Inhabilitar</button>
+									      
+									      	</div>
+									      	
 									      	
                                     </div><!-- /col6 -->
                               		</div><!-- /row -->	
                               		<div class="col-lg-12">
                                    <div class="form-group">
                                             	<label>Notas Internas</label>
-                                            	<textarea class="form-control" rows="3"></textarea>
+                                            	<textarea class="form-control" rows="3">Administrador del sistema S.optica, soporte tecnico.</textarea>
                                         	</div>
-                                       		<button type="button" class="btn btn-success" disabled>Guardar</button>    
-                                			<button type="button" class="btn btn-danger">Inhabilitar</button>
+                                       		<button type="button" class="btn btn-success btn-lg btn-block ">Guardar</button>    
+                                			
                                 	</div><!-- /form group -->
                                 </div>	 
                          </div><!-- /panel body -->

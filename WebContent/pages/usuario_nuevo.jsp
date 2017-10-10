@@ -24,7 +24,7 @@
                         <div class="panel-heading">
                        	
                            <div class="input-group">
-                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Ingresar Alias de Usuario">
+                                <input id="btn-input" type="text" autofocus class="form-control input-sm" placeholder="Ingresar Alias de Usuario">
                                 <span class="input-group-btn">
                                     <button class="btn btn-info btn-sm" id="btn-chat">
                                     	<i class="fa fa-check" aria-hidden="true"></i>
@@ -36,7 +36,7 @@
                            
                         </div>
                      <div class="panel-body">
-                        <div class="row">
+                        <div class="row"  disabled>
                         		 <div class="col-lg-6">
                          	        <div class="form-group">
                                     	<label>Usuario</label>
@@ -62,7 +62,7 @@
                                             <label>Roles</label>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >Optico
+                                                    <input type="checkbox" value="admin" >Administrador
                                                 </label>
                                             </div>
                                             <div class="checkbox">
@@ -77,15 +77,14 @@
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >Tecnico
+                                                    <input type="checkbox" value="" >Optico
                                                 </label>
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >Administrador
+                                                    <input type="checkbox" value="" >Tecnico
                                                 </label>
                                             </div>
-                                            
 									      	
                                     </div><!-- /col6 -->
                               		</div><!-- /row -->	
@@ -95,7 +94,7 @@
                                             	<small>maximo 360 caracteres</small>
                                             	<textarea class="form-control" rows="3" maxlength="360"></textarea>
                                         	</div>
-                                       		<button type="button" class="btn btn-success">Crear Usuario</button>    
+                                       		<button type="button" class="btn btn-success  btn-lg btn-block">Crear Usuario</button>    
                                 			
                                 	</div><!-- /form group -->
                                 </div>	 

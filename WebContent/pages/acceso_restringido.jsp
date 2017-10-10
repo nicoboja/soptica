@@ -44,7 +44,7 @@
 			    		    <input class="form-control" placeholder="Usuario" name="alias" id="alias" type="text" disabled>
 			    		</div>
 			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Contraseña" name="password" type="password" value="">
+			    			<input class="form-control" autofocus placeholder="Contraseña" name="password" type="password" value="">
 			    		</div>
 			    		
 			    		<input class="btn btn-lg btn-success btn-block" onclick="location.href = 'gestionar_usuarios.jsp'" value="Acceder">
