@@ -70,24 +70,24 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Listado de Usuarios
+                            Listado de Pacientes
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                         <div class="table-responsive">
-						 <table id="example" cellspacing="0" class="table table-striped table-bordered table-hover" width="100%">
+						 <table id="example" cellspacing="0" class="table table-striped table-bordered table-hover" width="90%">
 						 <!-- class="table table-striped table-bordered table-hover"    -->
                          <thead>
             					<tr>
                 					<th data-priority="1">HC</th>
-                					<th data-priority="1" >Documento</th>
+                					<th data-priority="1" >Doc.</th>
                 					<th data-priority="1">Nombre</th>
                                     <th data-priority="1">Apellido</th>
                                     <th data-priority="2">Correo</th>
                                     <th data-priority="1">Telefono</th>
                                    	<th data-priority="2">Direccion</th>
                                    	<th data-priority="2">Ciudad</th>
-                                   	<th data-priority="2">Provincia</th>
+                                   	<th data-priority="2">Prov.</th>
                                    	<th data-priority="2">Pais</th>
                                </tr>
         					</thead>
