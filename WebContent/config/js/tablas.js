@@ -1,7 +1,7 @@
 //Setup - add a text input to each footer cell
 $('#example tfoot th').each( function () {
     var title = $(this).text();
-    $(this).html( '<input type="text" size="auto"  id="inputSuccess" name="'+title+'"/>' );
+    $(this).html( '<input type="text" size="4" class="form-control input-sm" id="inputSuccess" name="'+title+'"/>' );
 } );
 // DataTable
 var table = $('#example').DataTable({
