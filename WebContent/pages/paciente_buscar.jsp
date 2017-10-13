@@ -25,19 +25,19 @@
                    		</div>
                    <div class="panel-body">
                         <div class="row">
-                        	 <div class="col-lg-6">
+                        	 <div class="col-lg-4">
                         		 <div class="form-group">
                         		 	<label>Busqueda <small>(minimo 3 caracteres)</small></label>
                                     <input class="form-control" name="busqueda" id="busqueda" autofocus>
                                  </div>
-                             </div><!-- /col6 -->
+                             </div><!-- /col4 -->
                                  
-                             <div class="col-lg-6">
+                             <div class="col-lg-4">
                                   <p><label>Filtro de busqueda:  </label></p>
                                   <span class="form-inline">
                                   		<div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" checked >      Todo  
+                                                    <input type="checkbox" value="" checked >      Ambos  
                                                 </label>
                                             </div>
                                             <div class="checkbox">
@@ -47,17 +47,19 @@
                                             </div>
                                             <div class="checkbox">
                                                 <label>
-                                                    <input type="checkbox" value="" >     Apellido
+                                                    <input type="checkbox" value="" >     Apellido y Nombre
                                                 </label>
                                             </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="" >      Nombre
-                                                </label>
-                                            </div>
+                                            
                                        </span>  
                                    	
-                                 </div><!-- /row -->	
+                                 </div><!-- /col 4 -->
+                                 <div class="col-lg-4">
+                        		 <div class="form-group">
+                        		 	<label>Busqueda por HC <small>(minimo 3 numeros)</small></label>
+                                    <input class="form-control" name="busquedaHC" id="busquedaHC" >
+                                 </div>
+                             </div><!-- /col4 -->	
                                  <div class="col-lg-12">
                                  <button type="button" class="btn btn-info btn-lg btn-block">Buscar</button>  	
                                  </div><!-- /row -->	
