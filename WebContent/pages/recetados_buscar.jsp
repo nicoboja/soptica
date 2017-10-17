@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@include file="../META-INF/jspf/meta.jspf"%>
 
-<title>S.Optica | Buscar Lente Recetado</title>
+<title>S.Optica | HC Lente Recetado</title>
 </head>
 <body>
 <%@ include file="../META-INF/jspf/nav.jspf" %>
@@ -14,14 +14,14 @@
 	<div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Buscar Lente Recetado</h1>
+                    <h1 class="page-header">Historia Clinica en Lente Recetado</h1>
                 </div><!-- /.col-lg-12 -->
         	</div><!-- /.row -->
         	<div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                        Inicio de busqueda de atención en Lente Recetado
+                        Inicio de busqueda de atención
                    		</div>
                    <div class="panel-body">
                         <div class="row">
@@ -77,34 +77,34 @@
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                         <div class="table-responsive">
-						 <table id="example" cellspacing="0" class="table table-striped table-bordered table-hover" width="90%">
+						 <table id="example" cellspacing="0" class="table table-striped table-bordered " width="90%">
 						 <!-- class="table table-striped table-bordered table-hover"    -->
                          <thead>
             					<tr>
-                					<th data-priority="1">HC</th>
-                					<th data-priority="1" >Doc.</th>
-                					<th data-priority="1">Nombre</th>
-                                    <th data-priority="1">Apellido</th>
-                                    <th data-priority="2">Correo</th>
-                                    <th data-priority="1">Telefono</th>
-                                   	<th data-priority="2">Direccion</th>
-                                   	<th data-priority="2">Ciudad</th>
-                                   	<th data-priority="2">Prov.</th>
-                                   	<th data-priority="2">Pais</th>
+                					<th >HC</th>
+                					<th >Doc.</th>
+                					<th >Nombre</th>
+                                    <th >Apellido</th>
+                                    <th >Correo</th>
+                                    <th >Telefono</th>
+                                   	<th >Direccion</th>
+                                   	<th >Ciudad</th>
+                                   	<th >Prov.</th>
+                                   	<th >Pais</th>
                                </tr>
         					</thead>
        						<tfoot>
           					  <tr>
-                					<th data-priority="1">HC</th>
-                					<th data-priority="1">Documento</th>
-                					<th data-priority="1">Nombre</th>
-                                    <th data-priority="1">Apellido</th>
-                                    <th data-priority="2">Correo</th>
-                                    <th data-priority="1">Telefono</th>
-                                   	<th data-priority="2">Direccion</th>
-                                   	<th data-priority="2">Ciudad</th>
-                                   	<th data-priority="2">Provincia</th>
-                                   	<th data-priority="2">Pais</th>
+                					<th >HC</th>
+                					<th >Documento</th>
+                					<th >Nombre</th>
+                                    <th >Apellido</th>
+                                    <th >Correo</th>
+                                    <th >Telefono</th>
+                                   	<th >Direccion</th>
+                                   	<th >Ciudad</th>
+                                   	<th >Provincia</th>
+                                   	<th >Pais</th>
                             </tr>
         					</tfoot>
        					 <tbody>
