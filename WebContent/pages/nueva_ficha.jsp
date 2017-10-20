@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <%@include file="../META-INF/jspf/meta.jspf"%>
 
-<title>S.Optica | Nuevo Usuario</title>
+<title>S.Optica | Nueva Ficha</title>
 </head>
 <body>
 <%@ include file="../META-INF/jspf/nav.jspf" %>
@@ -15,31 +15,92 @@
             <div class="row">
             
                 <div class="col-lg-12">
-                    <h1 class="page-header">Nuevo Usuario</h1>
+                    <h1 class="page-header">Nueva Ficha</h1>
                 </div><!-- /.col-lg-12 -->
         	</div><!-- /.row -->
 			<div class="row">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                       	
-                           <div class="input-group">
-                                <input id="btn-input" type="text" autofocus class="form-control input-sm" placeholder="Ingresar Alias de Usuario">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-info btn-sm" id="btn-chat">
-                                    	<i class="fa fa-check" aria-hidden="true"></i>
-                                        Validar Usuario
-                                    </button>
-                                </span>
-                          
-                           </div>
+<!--                        	<label>Documento</label> -->
+<!--                        	<span class="form-inline"> -->
+                         	        		
+<!--                                   				<div class="checkbox"> -->
+<!--                                                 	<label> -->
+<!--                                                     	<input type="checkbox" value="" checked >      DNI   -->
+<!--                                                 	</label> -->
+<!--                                             	</div> -->
+<!--                                             	<div class="checkbox"> -->
+<!--                                                 	<label> -->
+<!--                                                     	<input type="checkbox" value="" >      LE -->
+<!--                                                 	</label> -->
+<!--                                             	</div> -->
+<!--                                             	<div class="checkbox"> -->
+<!--                                                 	<label> -->
+<!--                                                     	<input type="checkbox" value="" >     PAS -->
+<!--                                                 	</label> -->
+<!--                                             	</div> -->
+<!--                                             	<div class="checkbox"> -->
+<!--                                                 	<label> -->
+<!--                                                     	<input type="checkbox" value="" >     NV -->
+<!--                                                 	</label> -->
+<!--                                             	</div> -->
+                                            
+<!--                                        </span>   -->
+<!--                            <form class="form-inline"> -->
+<!--  								<div class="form-group"> -->
+<!--    									<input type="text" class="form-control lg input-sm" id="exampleInputName2" placeholder="Ingrese documento a validar"> -->
+<!--   								</div> -->
+  
+<!--  								<button class="btn btn-info btn-sm" id="btn-chat"> -->
+<!--                                 	<i class="fa fa-check" aria-hidden="true"></i> -->
+<!--                                         Validar Usuario -->
+<!--                                 </button> -->
+<!-- 							</form> -->
+
+<div class="row">
+  <div class="col-xs-10">
+    
+    	<span class="form-inline">
+    	<label>Tipo de Documento: </label>
+                         	        		
+                                  				<div class="checkbox">
+                                                	<label>
+                                                    	<input type="checkbox" value="" checked >      DNI  
+                                                	</label>
+                                            	</div>
+                                            	<div class="checkbox">
+                                                	<label>
+                                                    	<input type="checkbox" value="" >      LE
+                                                	</label>
+                                            	</div>
+                                            	<div class="checkbox">
+                                                	<label>
+                                                    	<input type="checkbox" value="" >     PAS
+                                                	</label>
+                                            	</div>
+                                            	
+                                       
+                                        <input type="text" class="form-control lg input-sm" id="exampleInputName2" placeholder="Ingrese documento">
+   <button class="btn btn-info btn-sm" id="btn-chat">
+   <i class="fa fa-check" aria-hidden="true"></i>
+Validar Usuario 
+                                </button>
+                                          
+
+
+                                	
+  <button type="button" class="btn btn-outline btn-danger btn-sm"> <i class="fa fa-times" aria-hidden="true"></i>  No validar</button>
+   </div>
+  </span> 
+</div>
                            
                         </div>
                      <div class="panel-body">
-                        <div class="row"  disabled>
-                        		 <div class="col-lg-6">
+                        <div class="row">
+                        		 <div class="col-lg-4">
                          	        <div class="form-group">
-                                    	<label>Usuario</label>
+                         	        	
                                         <input class="form-control" name="usuario" id="usuario" disabled >
                                     </div>
                                     <div class="form-group">
@@ -54,39 +115,16 @@
                                             <label>Correo</label>
                                             <input class="form-control" name="correo" id="correo" >
                                     </div>
-                                 </div><!-- /col6 -->
+                                 </div><!-- /col4 -->
                                  
-                                 <div class="col-lg-6">
+                                 <div class="col-lg-4">
                                    	
                                         <div class="form-group">
-                                            <label>Roles</label>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="admin" >Administrador
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="" >Contactologo
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="" >Fonoudiologo
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="" >Optico
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" value="" >Tecnico
-                                                </label>
-                                            </div>
-									      	
-                                    </div><!-- /col6 -->
+                                            
+									   </div>   	
+                                    </div><!-- /col4 -->
+                                    <div class="col-lg-4">
+                                    </div><!-- /col4 -->
                               		</div><!-- /row -->	
                               		<div class="col-lg-12">
                                    <div class="form-group">
