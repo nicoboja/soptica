@@ -81,7 +81,7 @@
                                             	</div>
                                             	
                                        
-                                        <input type="text" class="form-control lg input-sm" id="exampleInputName2" placeholder="Ingrese documento">
+                                        <input type="text" class="form-control lg input-sm" autofocus id="exampleInputName2" placeholder="Ingrese documento">
    <button class="btn btn-info btn-sm" id="btn-chat">
    <i class="fa fa-check" aria-hidden="true"></i>
 Validar Usuario 
@@ -92,16 +92,25 @@ Validar Usuario
                                 	
   <button type="button" class="btn btn-outline btn-danger btn-sm"> <i class="fa fa-times" aria-hidden="true"></i>  No validar</button>
    </div>
-  </span> 
+  </span>
+  
 </div>
                            
                         </div>
                      <div class="panel-body">
                         <div class="row">
+                        <div class="col-lg-12">
+                        <div class="alert alert-success alert-dismissable">
+                	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                               <i class="fa fa-lg fa-exclamation-circle" aria-hidden="true"></i>
+                               Nueva ficha creada con exito!
+                		</div>
+                        </div>
                         		 <div class="col-lg-4">
                          	        <div class="form-group">
-                         	        	
-                                        <input class="form-control" name="usuario" id="usuario" disabled >
+                         	        	<label>Documento</label>
+                                        <input class="form-control" name="usuario" id="usuario" >
+                                        
                                     </div>
                                     <div class="form-group">
                                  	   <label>Apellido</label>
@@ -112,18 +121,48 @@ Validar Usuario
                                         <input class="form-control" name="nombre" id="nombre" >
                                     </div>
                                     <div class="form-group">
-                                            <label>Correo</label>
-                                            <input class="form-control" name="correo" id="correo" >
+                                        <label>Fecha Nacimiento</label>
+                                        <input class="form-control" type="date" name="nombre" id="nombre" >
                                     </div>
+                                    
                                  </div><!-- /col4 -->
                                  
                                  <div class="col-lg-4">
                                    	
-                                        <div class="form-group">
-                                            
-									   </div>   	
+                                        
+                                            <div class="form-group">
+                                            <label>Correo</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    <div class="form-group">
+                                            <label>Celular</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    <div class="form-group">
+                                            <label>Telefono</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    
+									 	
                                     </div><!-- /col4 -->
                                     <div class="col-lg-4">
+                                    
+                                    <div class="form-group">
+                                            <label>Domicilio</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    <div class="form-group">
+                                            <label>Ciudad</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    <div class="form-group">
+                                            <label>Provincia</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
+                                    <div class="form-group">
+                                            <label>Pais</label>
+                                            <input class="form-control" name="correo" id="correo" >
+                                    </div>
                                     </div><!-- /col4 -->
                               		</div><!-- /row -->	
                               		<div class="col-lg-12">
@@ -133,7 +172,7 @@ Validar Usuario
                                             	<textarea class="form-control" rows="3" maxlength="360"></textarea>
                                         	</div>
                                        		<button type="button" class="btn btn-success  btn-lg btn-block">Crear Usuario</button>    
-                                			
+                                				
                                 	</div><!-- /form group -->
                                 </div>	 
                          </div><!-- /panel body -->
