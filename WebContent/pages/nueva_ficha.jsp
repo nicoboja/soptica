@@ -142,15 +142,15 @@ Validar Usuario
                                             <label>Telefono</label>
                                             <input class="form-control" name="correo" id="correo" >
                                     </div>
-                                    
-									 	
-                                    </div><!-- /col4 -->
-                                    <div class="col-lg-4">
-                                    
                                     <div class="form-group">
                                             <label>Domicilio</label>
                                             <input class="form-control" name="correo" id="correo" >
                                     </div>
+									 	
+                                    </div><!-- /col4 -->
+                                    <div class="col-lg-4">
+                                    
+                                    
                                     <div class="form-group">
                                             <label>Ciudad</label>
                                             <input class="form-control" name="correo" id="correo" >
