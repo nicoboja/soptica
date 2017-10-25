@@ -36,7 +36,35 @@
                            
                         </div>
                      <div class="panel-body">
-                        <div class="row"  disabled>
+                     <div class="row">
+               		 <div class="col-lg-12">
+                			<div class="alert alert-warning alert-dismissable">
+                			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        	      <big> <i class="fa fa-exclamation-triangle" aria-hidden="true"></i></big>
+                       	        Verifique los campos ingresados
+                			</div>	
+              		  
+              		  <div class="alert alert-success alert-dismissable">
+                			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        	      <big> <i class="fa fa-info-circle" aria-hidden="true"></i></big>
+                       	        Usuario habilitado!
+                			</div>	
+              		 
+              		  <div class="alert alert-warning alert-dismissable">
+                			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        	      <big> <i class="fa fa-info-circle" aria-hidden="true"></i></big>
+                       	        Usuario inhabilitado!
+                			</div>	
+              		  
+              		  <div class="alert alert-success alert-dismissable">
+                			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        	      <big> <i class="fa fa-info-circle" aria-hidden="true"></i></big>
+                       	        Usuario creado con exito!
+                			</div>	
+                </div>
+                     
+                        <div class="row" >
+                        
                         		 <div class="col-lg-6">
                          	        <div class="form-group">
                                     	<label>Usuario</label>
@@ -52,11 +80,15 @@
                                     </div>
                                     <div class="form-group">
                                             <label>Correo</label>
-                                            <input class="form-control" name="correo" id="correo" >
+                                            <input class="form-control" type="text" name="correo" id="correo" >
                                     </div>
                                  </div><!-- /col6 -->
                                  
                                  <div class="col-lg-6">
+                                 <div class="form-group">
+                                            <label>Contraseña</label>
+                                            <input class="form-control" type="password" name="password" id="password" >
+                                    </div>
                                    	
                                         <div class="form-group">
                                             <label>Roles</label>
@@ -91,12 +123,13 @@
                               		<div class="col-lg-12">
                                    <div class="form-group">
                                             	<label>Notas Internas </label>
-                                            	<small>maximo 360 caracteres</small>
+                                            	<small>maximo 255 caracteres</small>
                                             	<textarea class="form-control" rows="3" maxlength="360"></textarea>
                                         	</div>
                                        		<button type="button" class="btn btn-success  btn-lg btn-block">Crear Usuario</button>    
                                 			
                                 	</div><!-- /form group -->
+                                	</div>
                                 </div>	 
                          </div><!-- /panel body -->
                    </div><!--  /panel default -->
