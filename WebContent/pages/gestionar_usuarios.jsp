@@ -81,7 +81,6 @@
                                         <td>Alejandra</td>
                                         <td>Avendaño</td>
                                         <td>aleavendaño@hotmail.com</td>
-                                        
                                     </tr>
                                     <tr >
                                         <td><button type="button" class="btn btn-outline btn-warning text-right btn-block">l.gomez</button></td>

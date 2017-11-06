@@ -25,14 +25,14 @@
                    		</div>
                    <div class="panel-body">
                         <div class="row">
-                        	 <div class="col-lg-4">
+                        	 <div class="col-lg-3">
                         		 <div class="form-group">
                         		 	<label>Busqueda <small>(minimo 3 caracteres)</small></label>
                                     <input class="form-control" name="busqueda" id="busqueda" autofocus>
                                  </div>
-                             </div><!-- /col4 -->
+                             </div><!-- /col3 -->
                                  
-                             <div class="col-lg-4">
+                             <div class="col-lg-3">
                                   <p><label>Filtro de busqueda:  </label></p>
                                   <span class="form-inline">
                                   		<div class="checkbox">
@@ -53,13 +53,19 @@
                                             
                                        </span>  
                                    	
-                                 </div><!-- /col 4 -->
-                                 <div class="col-lg-4">
+                                 </div><!-- /col 3 -->
+                                 <div class="col-lg-3">
                         		 <div class="form-group">
-                        		 	<label>Busqueda por HC <small>(minimo 3 numeros)</small></label>
+                        		 	<label>Busqueda por HC </label>
                                     <input class="form-control" name="busquedaHC" id="busquedaHC" >
                                  </div>
-                             </div><!-- /col4 -->	
+                             </div><!-- /col3 -->
+                             <div class="col-lg-3">
+                        		 <div class="form-group">
+                        		 	<label>Busqueda por LR </label>
+                                    <input class="form-control" name="busquedaHC" id="busquedaHC" >
+                                 </div>
+                             </div><!-- /col3 -->	
                                  <div class="col-lg-12">
                                  <button type="button" class="btn btn-info btn-lg btn-block">Buscar</button>  	
                                  </div><!-- /row -->	
